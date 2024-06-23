@@ -3,7 +3,8 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <DashboardComponent/> -->
     <!-- <TestComponent/> -->
-     <LgDashboard/>
+     <!-- <LgDashboard/> -->
+      <UploadExcel/>     
   </div>
 </template>
 
@@ -11,14 +12,18 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import DashboardComponent from './components/DashboardComponent.vue'
 // import TestComponent from './components/Test.vue'
-import LgDashboard from './components/LgDashboard.vue'
+// import IssueDashboard from './components/IssueDashboard.vue'
+// import LgDashboard from './components/LgDashboard.vue'
+import UploadExcel from './components/UploadExcel.vue'
+
 import './index.css'
 
 export default {
   name: 'App',
   components: {
     // DashboardComponent,
-    LgDashboard
+    // LgDashboard,
+    UploadExcel
     // TestComponent
   }
 }
